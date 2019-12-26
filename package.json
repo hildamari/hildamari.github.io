@@ -1,0 +1,21 @@
+{
+  "name": "hilda.pw",
+  "version": "0.0.0",
+  "description": "HildaMari Discord Bot Documentation",
+  "main": "index.js",
+  "repository": "https://github.com/hildamari/hildamari.github.io.git",
+  "author": "KunoichiZ",
+  "license": "GPL-3.0",
+  "private": true,
+  "homepage": "https://hilda.pw",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.0"
+  }
+}
