@@ -24,6 +24,7 @@
             pills
             align="center"
             class="bg-pink"
+            size="lg"
         ></b-pagination>
         <hr />
         <b-table

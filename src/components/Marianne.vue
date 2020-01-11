@@ -22,6 +22,7 @@
             aria-controls="my-table"
             pills
             align="center"
+            size="lg"
         ></b-pagination>
         <hr />
         <b-table
