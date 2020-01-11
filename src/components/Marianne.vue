@@ -11,8 +11,8 @@
                 height="300px"
             ></b-img>
             <br /> <br />
-            <b-button href="http://marianne-invite.hilda.pw/" id="server" pill>Invite to your Server</b-button>&nbsp;
-            <b-button href="#" id="code" pill>View Source Code</b-button>
+            <b-button href="http://marianne-invite.hilda.pw/" size="lg" id="server" pill>Invite to your Server</b-button>&nbsp;
+            <b-button href="#" id="code" size="lg" pill>View Source Code</b-button>
         </b-jumbotron>
         <b-pagination
             v-model="currentPage"
