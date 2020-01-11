@@ -1,0 +1,8 @@
+$pink: #fcafb7 !default;
+$blue: #aad0fa !default;
+$primary: $pink !default;
+$info: $blue !default;
+
+// Include Bootstrap and BootstrapVue SCSS files
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../../node_modules/bootstrap-vue/src/index.scss';
