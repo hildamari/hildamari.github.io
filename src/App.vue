@@ -1,7 +1,8 @@
 <template>
   <div class="overflow-auto">
     <h1 class="title">HildaMari Discord Bot Documentation</h1>
-    <b-button href="http://join.hilda.pw/" variant="primary">HildaMari Support Server</b-button>
+    <div class="center"><b-button size="lg" pill href="http://join.hilda.pw/" id="support">HildaMari Support Server</b-button></div>
+    <br />
     <b-tabs pills align="center" justified content-class="mt-3">
       <b-tab title="Hilda" id="hilda"><Hilda /></b-tab>
       <b-tab title="Marianne" id="marianne"><Marianne /></b-tab>
@@ -43,6 +44,15 @@ body {
 
 .jumbotron {
   text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+#support {
+    background-image: linear-gradient(#fcafb7, #aad0fa);
+    color: black;
 }
 
 #marianne___BV_tab_button__.nav-link, #hilda___BV_tab_button__.nav-link {
