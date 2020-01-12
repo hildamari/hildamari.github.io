@@ -226,6 +226,110 @@ export default {
                 example: "?spells Hilda",
                 aliases: "N/A",
                 extended_help: "This command contains spoilers for Fire Emblem Three Houses!"
+            },
+            {
+                command_name: "010editor",
+                description: "Replies with a link to the 010 Editor",
+                category: "Links",
+                example: "?010editor",
+                aliases: "N/A",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "archivemanager",
+                description: "Replies with a link to the FETH Archive Manager GitHub page",
+                category: "Links",
+                example: "?archivemanager",
+                aliases: "N/A",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "cethleann",
+                description: "Replies with a link to the Cethleann GitHub page",
+                category: "Links",
+                example: "?cethleann",
+                aliases: "N/A",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "filemanager",
+                description: "Replies with a link to the FETH File Manager GitHub page",
+                category: "Links",
+                example: "?filemanager",
+                aliases: "N/A",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "g1tool",
+                description: "Replies with a link to the G1Tool GitHub page",
+                category: "Links",
+                example: "?g1tool",
+                aliases: "N/A",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "indexes",
+                description: "Replies with a link to the Files and Indexes Google Spreadsheets",
+                category: "Links",
+                example: "?indexes",
+                aliases: "N/A",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "koeipy",
+                description: "Replies with a link to the koeipy scripts",
+                category: "Links",
+                example: "?koeipy",
+                aliases: "N/A",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "ktss",
+                description: "Replies with a link to the KTSS converter",
+                category: "Links",
+                example: "?koeipy",
+                aliases: "N/A",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "modellist",
+                description: "Replies with a link to a txt file containing the model and texture list",
+                category: "Links",
+                example: "?modellist",
+                aliases: "texturelist",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "modules",
+                description: "Replies with a link to Moonling's FEFNightmare Modules",
+                category: "Links",
+                example: "?modules",
+                aliases: "N/A",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "starfall",
+                description: "Replies with a link to the Starfall Forge GitHub page",
+                category: "Links",
+                example: "?starfall",
+                aliases: "forge",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "templates",
+                description: "Replies with a link to the 010 binary templates GitHub Page",
+                category: "Links",
+                example: "?templates",
+                aliases: "N/A",
+                extended_help: "N/A"
+            },
+            {
+                command_name: "wiki",
+                description: "Replies with a link to Throne of Knowledge Wiki",
+                category: "Links",
+                example: "?wiki",
+                aliases: "throne",
+                extended_help: "N/A"
             }
         ]
         };
