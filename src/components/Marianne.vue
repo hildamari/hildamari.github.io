@@ -228,6 +228,22 @@ export default {
                 extended_help: "This command contains spoilers for Fire Emblem Three Houses!"
             },
             {
+                command_name: "gifts",
+                description: "Replies with information about specific units' liked and disliked gifts",
+                category: "Three Houses",
+                example: "?gifts Marianne",
+                aliases: "N/A",
+                extended_help: "This command contains spoilers for Fire Emblem Three Houses!"
+            },
+            {
+                command_name: "lostItems",
+                description: "Replies with information about specific units' lost items",
+                category: "Three Houses",
+                example: "?lostItems Hilda",
+                aliases: "lost",
+                extended_help: "This command contains spoilers for Fire Emblem Three Houses!"
+            },
+            {
                 command_name: "010editor",
                 description: "Replies with a link to the 010 Editor",
                 category: "Links",
