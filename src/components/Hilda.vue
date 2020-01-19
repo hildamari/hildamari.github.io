@@ -308,6 +308,30 @@ export default {
                     example: "!points",
                     aliases: "N/A",
                     extended_help: "N/A"
+                },
+                {
+                    command_name: "hoesmad",
+                    description: "Sends the HoesMad image",
+                    category: "Memes",
+                    example: "!hoesmad",
+                    aliases: "N/A",
+                    extended_help: "N/A"
+                },
+                {
+                    command_name: "joesmad",
+                    description: "Sends the JoesMad image",
+                    category: "Memes",
+                    example: "!joesmad",
+                    aliases: "N/A",
+                    extended_help: "N/A"
+                },
+                {
+                    command_name: "doesmad",
+                    description: "Sends the DoesMad image",
+                    category: "Memes",
+                    example: "!doesmad",
+                    aliases: "N/A",
+                    extended_help: "N/A"
                 }
             ]
         };
