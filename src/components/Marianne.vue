@@ -12,7 +12,7 @@
             ></b-img>
             <br /> <br />
             <b-button href="http://marianne-invite.hilda.pw/" size="lg" id="server" pill>Invite to your Server</b-button>&nbsp;
-            <b-button href="#" id="code" size="lg" pill>View Source Code</b-button>
+            <b-button href="https://github.com/hildamari/Marianne" id="code" size="lg" pill>View Source Code</b-button>
         </b-jumbotron>
         <b-pagination
             v-model="currentPage"
@@ -353,6 +353,14 @@ export default {
                     category: "Info",
                     example: "?about",
                     aliases: "N/A",
+                    extended_help: "N/A"
+                },
+                {
+                    command_name: "server",
+                    description: "Replies with information about the server",
+                    category: "Info",
+                    example: "?server",
+                    aliases: "guildInfo, serverInfo, guild",
                     extended_help: "N/A"
                 }
             ]
