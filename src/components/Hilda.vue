@@ -332,6 +332,14 @@ export default {
                     example: "!doesmad",
                     aliases: "N/A",
                     extended_help: "N/A"
+                },
+                {
+                    command_name: "sweaty",
+                    description: "Replies with 'I'm all sweaty!'",
+                    category: "Memes",
+                    example: "!sweaty",
+                    aliases: "N/A",
+                    extended_help: "N/A"
                 }
             ]
         };
