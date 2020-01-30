@@ -340,6 +340,14 @@ export default {
                     example: "!sweaty",
                     aliases: "N/A",
                     extended_help: "N/A"
+                },
+                {
+                    command_name: "ferdinand",
+                    description: "Plays the 'I am Ferdinand von Aegir' voice clip",
+                    category: "Memes",
+                    example: "!ferdinand",
+                    aliases: "N/A",
+                    extended_help: "N/A"
                 }
             ]
         };
