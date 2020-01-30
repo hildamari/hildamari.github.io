@@ -214,11 +214,11 @@ export default {
                     extended_help: "N/A"
                 },
                 {
-                    command_name: "chant",
-                    description: "Chants HIL-DA HIL-DA",
+                    command_name: "hilda",
+                    description: "Chants HIL-DA HIL-DA and plays the voice clip",
                     category: "Memes",
-                    example: "!chant",
-                    aliases: "hilda",
+                    example: "!hilda",
+                    aliases: "chant",
                     extended_help: "N/A"
                 },
                 {
@@ -347,6 +347,62 @@ export default {
                     category: "Memes",
                     example: "!ferdinand",
                     aliases: "N/A",
+                    extended_help: "N/A"
+                },
+                {
+                    command_name: "leave",
+                    description: "Makes the bot leave voice channel if it is in one",
+                    category: "Music",
+                    example: "!leave",
+                    aliases: "end",
+                    extended_help: "N/A"
+                },
+                {
+                    command_name: "nowplaying",
+                    description: "Shows the current status of the music.",
+                    category: "Music",
+                    example: "!nowplaying",
+                    aliases: "np",
+                    extended_help: "N/A"
+                },
+                {
+                    command_name: "pause",
+                    description: "Pause the current playing song",
+                    category: "Music",
+                    example: "!pause",
+                    aliases: "hold, stop",
+                    extended_help: "N/A"
+                },
+                {
+                    command_name: "play",
+                    description: "Play any song or playlist from YouTube",
+                    category: "Music",
+                    example: "!play https://www.youtube.com/watch?v=oNFGZ30KXKM",
+                    aliases: "add",
+                    extended_help: "N/A"
+                },
+                {
+                    command_name: "resume",
+                    description: "Resume the current paused song",
+                    category: "Music",
+                    example: "!resume",
+                    aliases: "continue",
+                    extended_help: "N/A"
+                },
+                {
+                    command_name: "skip",
+                    description: "Skip the current playing song",
+                    category: "Music",
+                    example: "!skip",
+                    aliases: "skip-song, advance-song, advance",
+                    extended_help: "N/A"
+                },
+                {
+                    command_name: "queue",
+                    description: "Display the song queue",
+                    category: "Music",
+                    example: "!next",
+                    aliases: "song-list', 'next-songs",
                     extended_help: "N/A"
                 }
             ]
