@@ -362,6 +362,14 @@ export default {
                     example: "?server",
                     aliases: "guildInfo, serverInfo, guild",
                     extended_help: "N/A"
+                },
+                {
+                    command_name: "base",
+                    description: "Replies with information about specific units' base stats",
+                    category: "Three Houses",
+                    example: "?base Hilda",
+                    aliases: "base-stats, basestats",
+                    extended_help: "This command contains spoilers for Fire Emblem Three Houses!"
                 }
             ]
         };
