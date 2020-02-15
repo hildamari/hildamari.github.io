@@ -324,11 +324,11 @@ export default {
                     extended_help: "N/A"
                 },
                 {
-                    command_name: "starfall",
-                    description: "Replies with a link to the Starfall Forge GitHub page",
+                    command_name: "aldebaran",
+                    description: "Replies with a link to the Aldebaran Forge GitHub page",
                     category: "Links",
-                    example: "?starfall",
-                    aliases: "forge",
+                    example: "?aldebaran",
+                    aliases: "forge, starfall",
                     extended_help: "N/A"
                 },
                 {
