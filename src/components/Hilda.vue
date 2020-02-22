@@ -402,7 +402,7 @@ export default {
                     description: "Display the song queue",
                     category: "Music",
                     example: "!next",
-                    aliases: "song-list', 'next-songs",
+                    aliases: "song-list, next-songs, q",
                     extended_help: "N/A"
                 },
                 {
