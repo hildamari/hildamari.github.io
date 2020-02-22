@@ -370,6 +370,14 @@ export default {
                     example: "?base Hilda",
                     aliases: "base-stats, basestats",
                     extended_help: "This command contains spoilers for Fire Emblem Three Houses!"
+                },
+                {
+                    command_name: "subscribe",
+                    description: "Gives the 'Marianne Subscriber' role to those who want to be notified of new updates",
+                    category: "Support Server",
+                    example: "!subscribe",
+                    aliases: "N/A",
+                    extended_help: "Use the command again to remove the role. This command can only be used in the support server."
                 }
             ]
         };
