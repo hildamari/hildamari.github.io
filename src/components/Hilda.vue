@@ -375,11 +375,11 @@ export default {
                 },
                 {
                     command_name: "play",
-                    description: "Play any song or playlist from YouTube",
+                    description: "Play any song from YouTube",
                     category: "Music",
                     example: "!play https://www.youtube.com/watch?v=oNFGZ30KXKM",
                     aliases: "add",
-                    extended_help: "N/A"
+                    extended_help: "Use the command again to remove the role"
                 },
                 {
                     command_name: "resume",
@@ -404,6 +404,14 @@ export default {
                     example: "!next",
                     aliases: "song-list', 'next-songs",
                     extended_help: "N/A"
+                },
+                {
+                    command_name: "subscribe",
+                    description: "Gives the 'Hilda Subscriber' role to those who want to be notified of new updates",
+                    category: "Support Server",
+                    example: "!subscribe",
+                    aliases: "N/A",
+                    extended_help: "Use the command again to remove the role. This command can only be used in the support server."
                 }
             ]
         };
