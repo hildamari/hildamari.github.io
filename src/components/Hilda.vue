@@ -406,6 +406,14 @@ export default {
                     extended_help: "N/A"
                 },
                 {
+                    command_name: "remove",
+                    description: "Delete a song from the queue",
+                    category: "Music",
+                    example: "!remove 2",
+                    aliases: "delete",
+                    extended_help: "N/A"
+                },
+                {
                     command_name: "subscribe",
                     description: "Gives the 'Hilda Subscriber' role to those who want to be notified of new updates",
                     category: "Support Server",
