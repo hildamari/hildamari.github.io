@@ -378,6 +378,14 @@ export default {
                     example: "!subscribe",
                     aliases: "N/A",
                     extended_help: "Use the command again to remove the role. This command can only be used in the support server."
+                },
+                {
+                    command_name: "vote",
+                    description: "Vote for Marianne on top.gg/Discord Bot List",
+                    category: "Discord Bot List",
+                    example: "!vote",
+                    aliases: "N/A",
+                    extended_help: "N/A"
                 }
             ]
         };
