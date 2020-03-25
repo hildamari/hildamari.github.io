@@ -14,9 +14,9 @@
     "deploy": "gh-pages -b master -d build"
   },
   "dependencies": {
-    "gh-pages": "^2.1.1",
     "bootstrap": "^4.4.1",
-    "bootstrap-vue": "^2.7.0",
+    "bootstrap-vue": "^2.8.0",
+    "gh-pages": "^2.1.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
