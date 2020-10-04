@@ -410,7 +410,7 @@ export default {
                     description: "Delete a song from the queue",
                     category: "Music",
                     example: "!remove 2",
-                    aliases: "delete",
+                    aliases: "N/A",
                     extended_help: "N/A"
                 },
                 {
